@@ -39,7 +39,7 @@ fprintf('--- PSC Neural Accelerator Training ---\n');
 %% ------------------------------------------------------------------------
 % 1. CONFIGURATION
 % -------------------------------------------------------------------------
-cfg.masterFile = 'PSC_Master_Dataset.mat';
+cfg.masterFile = fullfile('..','data','PSC_Master_Dataset.mat');
 cfg.testRatio  = 0.15;     % Hold-out test set
 cfg.kFolds     = 5;        % Cross-validation folds
 
